@@ -1,7 +1,7 @@
 # tests/test_main.py
 
 import unittest
-from rdkit import Chem
+from rdkit import Chem # type: ignore
 from ligprepclone import main
 
 class TestLigPrepClone(unittest.TestCase):
